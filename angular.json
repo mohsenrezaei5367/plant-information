@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "plant-information": {
+    "about-plants": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/plant-information",
+            "outputPath": "dist/about-plants",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -30,13 +30,9 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -69,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "plant-information:build:production"
+              "browserTarget": "about-plants:build:production"
             },
             "development": {
-              "browserTarget": "plant-information:build:development"
+              "browserTarget": "about-plants:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "plant-information:build"
+            "browserTarget": "about-plants:build"
           }
         },
         "test": {
@@ -104,8 +100,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "f8eb1d85-509e-4594-b6a6-19ff22fa868f"
   }
 }
