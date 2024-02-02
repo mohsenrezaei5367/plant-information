@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Observable } from "rxjs";
+import { BehaviorSubject, Observable, Subject } from "rxjs";
 import Swal from "sweetalert2";
 import { ApiService } from "../services/api.service";
 import { HttpClient } from "@angular/common/http";
@@ -8,6 +8,7 @@ import { HttpClient } from "@angular/common/http";
   providedIn: "root",
 })
 export class ProjectService {
+  informationUser = new BehaviorSubject({});
   constructor(public http: HttpClient) {}
 
   singupApi(model: any): Observable<any> {
@@ -15,6 +16,9 @@ export class ProjectService {
   }
   singupData(): Observable<any> {
     return this.http.get("http://localhost:3004/singup");
+  }
+  plantData(): Observable<any> {
+    return this.http.get("http://localhost:3004/plant");
   }
 
   messageLog(message: string, iconMessage: any) {
