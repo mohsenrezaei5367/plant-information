@@ -21,18 +21,19 @@
   ],
   "singup": [
     {
-      "id": "17a7",
       "fullName": "mohsen rezaei",
       "phone": "09303869308",
       "email": "mohsen@gmail.com",
-      "password": 324080
-    },
+      "password": 324080,
+      "id": 1
+    }
+  ],
+  "plant": [
     {
-      "fullName": "yassin",
-      "phone": "123456",
-      "email": "yassin@gmail.com",
-      "password": 12345,
-      "id": "qHQYVo9"
+      "attribution": "(c) Gareth Yearsley, some rights reserved (CC BY-NC), uploaded by Gareth Yearsley",
+      "license": "cc-by-nc",
+      "relative_path": "images/plants/acokanthera-spp/d4d955a9b71a4222f1533c012a1659d6",
+      "sourceurl": "https://inaturalist-open-data.s3.amazonaws.com/photos/80968168/original.jpg"
     }
   ]
 }
