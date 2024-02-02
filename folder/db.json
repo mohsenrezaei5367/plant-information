@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "1234",
+      "name": "Andrew Owen",
+      "age": 26,
+      "eyeColor": "blue"
+    },
+    {
+      "id": "1235",
+      "name": "Susan Que",
+      "age": 45,
+      "eyeColor": "hazel"
+    },
+    {
+      "id": "1236",
+      "name": "John Doe",
+      "age": 53,
+      "eyeColor": "brown"
+    }
+  ],
+  "singup": [
+    {
+      "id": "17a7",
+      "fullName": "mohsen rezaei",
+      "phone": "09303869308",
+      "email": "mohsen@gmail.com",
+      "password": 324080
+    },
+    {
+      "fullName": "yassin",
+      "phone": "123456",
+      "email": "yassin@gmail.com",
+      "password": 12345,
+      "id": "qHQYVo9"
+    }
+  ]
+}

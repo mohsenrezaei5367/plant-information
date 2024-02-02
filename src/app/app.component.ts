@@ -1,13 +1,16 @@
+import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
-import { HomeComponent } from './home/home.component';
+import { RouterModule } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
-  standalone: true,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  imports: [AppComponent, HomeComponent],
+  standalone: true,
+  imports: [CommonModule, RouterModule, HttpClientModule]
 })
 export class AppComponent {
-  title = 'about-plants';
+
 }
